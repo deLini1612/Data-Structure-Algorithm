@@ -1,17 +1,16 @@
 ''' Find Longest Bitonic Subarray (LBS) in an array
-Problem: find subarray X of a given sequence so that: 
-    - X's elements are first sorted in increasing order, then in decreasing order (Strictly ascending or descending is okay)
-    - X as long as possible
+Problem: find subarray B of a given sequence A[] so that: 
+    - B's elements are first sorted in increasing order, then in decreasing order
+    - B as long as possible
 Input: Array A[]
 Output: Array B[]
 '''
 
-'''
-Idea:
-    - Check for the LBS starting at A[i]
-        -> If the LBS starting at A[i] ends at A[j] -> skip all elements between i and j
-    - Next, check for the LBS starting at A[j] -> We continue this process until the end of A
-'''
+# Idea:
+#     - Check for the LBS starting at A[i]
+#         -> If the LBS starting at A[i] ends at A[j] -> skip all elements between i and j
+#     - Next, check for the LBS starting at A[j] -> We continue this process until the end of A
+
 def findLBS(A: list[int]) -> (list[int], int):
     """ Function to find the LBS and its length """
     
