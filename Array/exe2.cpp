@@ -1,5 +1,5 @@
-Check if a subarray with 0 sum exists or not
-Given an integer array, check if it contains a subarray having zero-sum.
+//Check if a subarray with 0 sum exists or not
+//Given an integer array, check if it contains a subarray having zero-sum.
 
 //Function to check if subarray with zero-sum is present in a given array or not
 bool hasZeroSumSubarray(int nums[], int n)
