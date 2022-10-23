@@ -42,7 +42,7 @@ bool hasQuadruplet(int nums[], int n, int target)
   //return false if quadruplet doesn't exist
   return false;
 
-//Time complexity:O(n^3).
+//Time complexity:O(n^2).
 
 int main()
 {
