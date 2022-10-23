@@ -1,5 +1,5 @@
 # Assignment week 2 - Big O Notation
-
+Asumme that T(1) = 1
 ### 1. $T(n) = T(\frac{n}{2}) + 1$
 * Asumme that: $2^{k}=n \rightarrow 2^{-k}n=1 \rightarrow k = \log_2 {n}$
     > $T(n) = T(\frac{n}{2}) + 1 = (T(\frac{n}{4})+1)+1=T(2^{-2}n)+2 =T(2^{-3}n)+3=...=T(2^{-k}n)+k=T(1) + \log_2 {n} = 1 + \log_2 {n}$ 

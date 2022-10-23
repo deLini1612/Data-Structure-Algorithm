@@ -42,7 +42,7 @@ def findLBS(A: list[int]) -> (list[int], int):
     
     return (A[end_point - LBS_length + 1: end_point + 1], LBS_length)
 
-# Time: O(n) - Space 0
+# Time: O(n)
 
 def main():
     A = [3, 5, 8, 4, 5, 9, 10, 8, 5, 3, 4]
