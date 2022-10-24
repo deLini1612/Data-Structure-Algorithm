@@ -1,6 +1,5 @@
 """Find a Triplet having Maximum Product in an Array
-Problem: Given integer array A[]
-    - find a triplet having the maximum product
+Problem: Find a triplet having the maximum product in given integer array A[]
 Input: Array A[]
 Output: Triplet (x, y, z)
 """
