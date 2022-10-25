@@ -7,4 +7,4 @@ You can see the list of exercises we deal with by running the `exe_list.py` file
 
 2. Folder **Assignment**: Others assignment
 
-3. Folder **Goodrich**: Solve some problem from book <u>Data structures and algorithms in Java</u> (3rd edition)
+3. Folder **Goodrich**: Solve some problem from book <u>Data structures and algorithms in Python</u> (3rd edition)
