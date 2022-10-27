@@ -19,9 +19,12 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
     </thead>
     <tbody>
         <tr>
-            <td style="width:30%;">Trần Văn Anh</td>
-            <td style="width:15%;">Array</td>
+            <td rowspan =2 style="width:10%;">Trần Văn Anh</td>
+            <td style="width:0%;">Array</td>
             <td>2, 26, 50, 74, 98, 122, 146</td>
+        </tr>
+        <tr>
+            <td>Backtracking</td>
         </tr>
         <tr>
             <td>Nguyễn Ngọc Dương</td>
