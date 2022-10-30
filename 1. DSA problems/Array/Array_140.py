@@ -33,7 +33,7 @@ Output: Int n
 #             -> update las[i][0]
 #         + las[i][1] = max (las[i][1], las[j][0] + 1); for all j < i and A[j] > A[i]
 
-def LAS1(A):
+def LAS1(A: list[int]) -> int:
     """Function to find the length of the longest subsequence with alternate low and high elements"""
 
     las = [[0] * 2 for r in range(len(A))]
