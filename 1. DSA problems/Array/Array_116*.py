@@ -20,7 +20,9 @@ Output: int index or -1 (if target doesn't on A)
 #     ---> In conclusion, we repeatedly dividing the search interval in half at each step -> take advantage of the fact that the input is sorted
 #     ---> Time: O(logn) - Space: O(1)
 
-#     - Binary Search Algorithm can be implemented in two ways: Iterative Method and Recursive Method
+#     - Binary Search Algorithm can be implemented in two ways: 
+#           + Iterative Method
+#           + Recursive Method
 
 
 # Iterative Implementation
