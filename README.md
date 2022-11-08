@@ -41,5 +41,9 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
             <td>Array</td>
             <td>20, 44, 68, 116, 140, 152</td>
         </tr>
+        <tr>
+            <td>Problem - based</td>
+            <td colspan=2>Array_10</td>
+        </tr>
     </tbody>
 </table>
