@@ -43,7 +43,7 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
         </tr>
         <tr>
             <td>Problem - based</td>
-            <td colspan=2>Array_10</td>
+            <td colspan=2>Array_10, Array_23, Array_93</td>
         </tr>
     </tbody>
 </table>
