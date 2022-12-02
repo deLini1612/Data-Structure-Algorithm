@@ -24,22 +24,35 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
             <td>2, 26, 50, 74, 98, 122, 146</td>
         </tr>
         <tr>
-            <td>Backtracking</td>
+            <td>Link list</td>
+            <td>26</td>
         </tr>
         <tr>
-            <td>Nguyễn Ngọc Dương</td>
+            <td rowspan =2 style="width:10%;">Nguyễn Ngọc Dương</td>
             <td>Array</td>
             <td>8, 32, 56, 80, 104, 128</td>
         </tr>
         <tr>
-            <td>Trần Trung Hiếu</td>
+            <td>Link list</td>
+            <td>8, 32</td>
+        </tr>
+        <tr>
+            <td rowspan =2 style="width:10%;">Trần Trung Hiếu</td>
             <td>Array</td>
             <td>14, 38, 62, 86, 110, 134</td>
         </tr>
         <tr>
-            <td>Nguyễn Phương Linh</td>
+            <td>Link list</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td rowspan =2 style="width:10%;">Nguyễn Phương Linh</td>
             <td>Array</td>
             <td>20, 44, 68, 116, 140, 152</td>
+        </tr>
+        <tr>
+            <td>Link list</td>
+            <td>20</td>
         </tr>
         <tr>
             <td>Problem - based</td>
