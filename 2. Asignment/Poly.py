@@ -1,4 +1,4 @@
-"""Declare a polynomial and print using a linked list"""
+"""Declare a polynomial and print it in sorted order using a linked list"""
 
 class Node:
     """A node of linked list"""
@@ -7,17 +7,26 @@ class Node:
         self.exp = int(exp)
         self.next = next
 
-def appendPoly(head, coef, exp):
-    """Function to append elements of polynomial (by append a node to the tail of linked list)"""
-    current = head
+def addDec(head, coef, exp):
+    """Function to add a element to a sorted (in decreasing order) polynomial so that it is still sorted"""
+    temp = Node(16,-1)
+    current = temp
     element = Node(coef, exp)
-    if current is None:
+
+    if head is None:
         head = element
+        return head
     else:
-        while current.next:
+        temp.next = head
+        while current.next and current.next.exp >= element.exp:
             current = current.next
-        current.next = element
-    return head
+
+        if current.exp == element.exp:
+            current.coef = current.coef + element.coef
+        else:
+            element.next = current.next
+            current.next = element
+    return temp.next
 
 def creatPoly():
     """Function to creat a polynomial with input from terminal"""
@@ -25,7 +34,7 @@ def creatPoly():
     head = None
     for i in range(n):
         coef, exp = input("Enter coef and exp of the element (split by ,): ").split(",")
-        head = appendPoly(head, coef, exp)
+        head = addDec(head, coef, exp)
     return head
 
 def printPoly(head: Node):
@@ -35,17 +44,23 @@ def printPoly(head: Node):
     p = p.next
     while p:
         if p.coef == 0:
-            continue
+            pass
         elif p.coef > 0:
-            print("+ {}*x^{}".format(p.coef, p.exp), end = " ")
+            if p.exp ==0:
+                print("+ {}".format(p.coef), end = " ")
+            else:
+                print("+ {}*x^{}".format(p.coef, p.exp), end = " ")
         else:
-            print("{}*x^{}".format(p.coef, p.exp), end = " ")
+            if p.exp ==0:
+                print("- {}".format(-p.coef), end = " ")
+            else:
+                print("- {}*x^{}".format(-p.coef, p.exp), end = " ")
         p = p.next
+    print("")
 
 def main():    
-    headPoly = None
-    headPoly = creatPoly()
-    printPoly(headPoly)
+    P1 = creatPoly()
+    printPoly(P1)
 
 if __name__ == "__main__":
     main()
