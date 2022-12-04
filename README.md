@@ -2,9 +2,9 @@
 
 This repo consists of exercises from Data Structure and Algorithm Course 20221
 
-1. Folder **DSA problems**: Solve some problems from [500+ DSA problems](https://github.com/bollwarm/DataStructuresAlgorithms/blob/master/README.md#500-data-structures-and-algorithms-practice-problems) (See list of problems and contributors in the [table below](#list-of-problems-and-contributors-in-500-dsa-code))
+1. Folder **DSA problems**: Solve some problems from [500+ DSA problems](https://github.com/bollwarm/DataStructuresAlgorithms/blob/master/README.md#500-data-structures-and-algorithms-practice-problems) (Work in group, see list of problems and contributors in the [table below](#list-of-problems-and-contributors-in-500-dsa-code))
 
-2. Folder **Assignment**: Others assignment (Including assignment in class or others homeworks)
+2. Folder **Assignment**: Others assignment - Personal code (Including assignment in class or others homeworks)
 
 ## List of problems and contributors in 500+ DSA code
 
