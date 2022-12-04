@@ -6,8 +6,6 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
 
 2. Folder **Assignment**: Others assignment (Including assignment in class or others homeworks)
 
-3. Folder **Goodrich**: Solve some problem from book <u>Data structures and algorithms in Python</u> (3rd edition)
-
 ## List of problems and contributors in 500+ DSA code
 
 <table>
