@@ -11,9 +11,9 @@ def addPoly(P1, P2):
 from Poly import *
 def main():
     print("================Enter the first polynomial================")
-    P1 = creatPoly()
+    P1 = createPoly()
     print("================Enter the first polynomial================")
-    P2 = creatPoly()
+    P2 = createPoly()
     print("P1 =", end=" ")
     printPoly(P1)
     print("P2 =", end=" ")

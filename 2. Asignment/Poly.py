@@ -2,13 +2,13 @@
 
 class Node:
     """A node of linked list"""
-    def __init__(self, coef = None, exp = None, next = None):
+    def __init__(self, coef, exp, next = None):
         self.coef = float(coef)
         self.exp = int(exp)
         self.next = next
 
 def addDec(head, coef, exp):
-    """Function to add a element to a sorted (in decreasing order) polynomial so that it is still sorted"""
+    """Add a element to a sorted (in decreasing order) polynomial so that it is still sorted"""
     temp = Node(16,-1)
     current = temp
     element = Node(coef, exp)
@@ -28,8 +28,8 @@ def addDec(head, coef, exp):
             current.next = element
     return temp.next
 
-def creatPoly():
-    """Function to creat a polynomial with input from terminal"""
+def createPoly():
+    """Create a polynomial with input from terminal"""
     n = int(input("Number of elements:"))
     head = None
     for i in range(n):
@@ -38,7 +38,7 @@ def creatPoly():
     return head
 
 def printPoly(head: Node):
-    """Function to print a polynomial (given in a linked list with the first element is head)"""
+    """Print a polynomial (given in a linked list with the first element is head)"""
     p = head
     print("{}*x^{}".format(p.coef, p.exp), end = " ")
     p = p.next
@@ -59,7 +59,7 @@ def printPoly(head: Node):
     print("")
 
 def main():    
-    P1 = creatPoly()
+    P1 = createPoly()
     printPoly(P1)
 
 if __name__ == "__main__":
