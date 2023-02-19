@@ -54,7 +54,7 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
         </tr>
         <tr>
             <td>Graph</td>
-            <td>2</td>
+            <td>2, 6, 7</td>
         </tr>
         <tr>
             <td>Problem - based</td>
