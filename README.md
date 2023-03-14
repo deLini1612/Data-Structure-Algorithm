@@ -6,6 +6,8 @@ This repo consists of exercises from Data Structure and Algorithm Course 20221
 
 2. Folder **Assignment**: Others assignment - Personal code by NPLink (Including assignment in class or others homeworks)
 
+3. Folder **Final Project**: Source code for some code use in the final project about small world network
+
 ## List of problems and contributors in 500+ DSA code
 
 <table>
